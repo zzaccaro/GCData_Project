@@ -1,3 +1,3 @@
 # GCData_Project
-Getting and Cleaning Data Project for John's Hopkins Data Science Specialization
+Coursera Getting and Cleaning Data Project for Johns Hopkins Data Science Specialization
 
