@@ -39,7 +39,7 @@ Assign column names to each of the newly created tables. Then merge the data int
 ## Section 2. Extract only the measurements on the mean and standard deviation for each measurement. 
 Grep the columns that only deal with mean and standard deviation, and also include the subjectID and activityID columns.
 
-## Section 3. Use descriptive activity names to name the activities in the data set
+## Section 3. Use descriptive activity names to name the activities in the data set.
 Merge the data from section 2 with the activity table to include the descriptive activity names.
 
 ## Section 4. Appropriately label the data set with descriptive variable names.
