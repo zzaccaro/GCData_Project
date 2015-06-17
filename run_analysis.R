@@ -57,7 +57,7 @@ mean_std_data <- combined[, grep("subjectID|activityID|mean|std", names(combined
 
 
 # 3. Name the activities in the data set.
-mean_std_data <- merge(mean_std_data, activity, by='activityID', all.x=TRUE)
+mean_std_data <- merge(mean_std_data, activity, by = 'activityID', all.x = TRUE)
 
 
 # 4. Label the data set with descriptive variable names.
@@ -78,7 +78,7 @@ library(plyr)
 avg_act_sub = ddply(mean_std_data, c("subjectID","activityType"), numcolwise(mean))
 
 # Export the data.
-write.table(avg_act_sub, file = "finalData.txt")
+write.table(avg_act_sub, file = "finalData.txt", row.names = FALSE)
 
 
 
