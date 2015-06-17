@@ -23,7 +23,7 @@ For each record in the dataset it is provided:
 - Its activity label. 
 - An identifier of the subject who carried out the experiment.
 
-### Section 1: Merge the training and the test sets to create one data set.
+## Section 1: Merge the training and the test sets to create one data set.
 After setting the source directory for the files, read into tables the data located in
 - features.txt
 - activity_labels.txt
