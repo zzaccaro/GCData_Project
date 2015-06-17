@@ -42,7 +42,7 @@ Grep the columns that only deal with mean and standard deviation, and also inclu
 ## Section 3. Use descriptive activity names to name the activities in the data set
 Merge the data from section 2 with the activity table to include the descriptive activity names.
 
-## Section 4. Appropriately label the data set with descriptive activity names.
+## Section 4. Appropriately label the data set with descriptive variable names.
 Use the gsub function for pattern replacement to give the data labels more descriptive names.
 
 ## Section 5. Create a second, independent tidy data set with the average of each variable for each activity and each subject. 
